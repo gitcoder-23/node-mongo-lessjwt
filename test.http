@@ -1,0 +1,32 @@
+// for Rest Client Extension
+
+### GET ALL PRODUCTS
+GET http://localhost:4000/api/products HTTP/1.1
+
+### GET SINGLE PRODUCTS
+GET http://localhost:4000/api/products/61e686dfc0dff44d0dd2b1ab HTTP/1.1
+
+### ADD PRODUCT
+POST http://localhost:4000/api/products HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "sony xperia 10 ii",
+  "price": "80,000",
+  "image": "https://www.sony-asia.com/image/52759649396a293bbc0ffb05f9bd0e8b?fmt=pjpeg&bgcolor=FFFFFF&bgc=FFFFFF&wid=2515&hei=1320",
+  "details": "Sony Xperia 10 II Price in India, Specifications (17th January 2022)"
+}
+
+### UPDATE PRODUCT
+PUT http://localhost:4000/api/products/61e686dfc0dff44d0dd2b1ab HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "samsung galaxy s20",
+  "price": "45,251",
+  "image": "https://www.mytrendyphone.eu/images/Samsung-Galaxy-S20-FE-Duos-128GB-Cloud-Navy-8806090716935-02102020-01-p.jpg",
+  "details": "Samsung Galaxy S20 FE (Fan Edition) - 128 GB, 6 GB RAM, 6.5' Super AMOLED, Triple 12 MP, Octa-core, Dual SIM, 4500mAh, GPS, NFC Samsung Galaxy S20"
+}
+
+### DELETE PRODUCT
+DELETE http://localhost:4000/api/products/61e686dfc0dff44d0dd2b1ab HTTP/1.1

@@ -3,6 +3,7 @@
   "you-tut": "https://youtu.be/gFUFMlf6asU",
   "heroku-dev": "https://node-mongo-lessjwt.herokuapp.com/api/products",
   "heroku-deploy-you-tut": "https://youtu.be/maNWl202vy4",
+  "heroku-git": "git push heroku master",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

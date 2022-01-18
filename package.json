@@ -1,6 +1,7 @@
 {
   "name": "node-mongo-lessjwt",
   "you-tut": "https://youtu.be/gFUFMlf6asU",
+  "heroku-dev": "https://node-mongo-lessjwt.herokuapp.com/api/products",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
